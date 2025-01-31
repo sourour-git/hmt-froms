@@ -1,0 +1,139 @@
+<!-- Level 10: Mini Project – Personal Webpage
+Objective: Combine everything learned into a mini-project.
+Activity: Students create a personal webpage with a title, heading, image, list, table, links, and a contact form.
+Output: A complete webpage showcasing their creativity. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        img {
+            max-width: 40%;
+            height: 25%;
+            border-radius: 12%;
+        }
+
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #ddd;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        form {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border: 1px solid #ddd;
+        }
+
+        form input,
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Personal Webpage</h1>
+        <form action="">
+            <label for="">Full Name</label>
+            <input type="text" placeholder="your full name ">
+        </form>
+    </header>
+    <div class="container">
+        <section>
+            <h2>About Me</h2>
+            <img src="sourour.jpg" alt="A picture of me">
+            <p>Hello! My name is sourour saida. I am a Full Stack Developer. Welcome to my personal webpage where
+                you can learn more about me and my interests.</p>
+        </section>
+        <section>
+            <h2>My Interests</h2>
+            <ul>
+                <li>Interest 1</li>
+                <li>Interest 2</li>
+                <li>Interest 3</li>
+            </ul>
+        </section>
+        <section>
+            <h2>My Projects</h2>
+            <table>
+                <tr>
+                    <th>Project Name</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Project 1</td>
+                    <td>Description of project 1</td>
+                </tr>
+                <tr>
+                    <td>Project 2</td>
+                    <td>Description of project 2</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2>Contact Me</h2>
+            <form action="souroursour94@gmail.com" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>
